@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="back-pane" maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color:#2d2c29" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gurudex.updateGhoulController">
+    <children>
+        <Label id="title-label" layoutX="14.0" layoutY="14.0" onMouseClicked="#goBack" prefWidth="996.0" style="-fx-alignment: top-center; -fx-font-family: &quot;Black Asylum&quot;; -fx-font-size: 100px;" text="G h o u l o D e x" textAlignment="CENTER" textFill="#db0f45" />
+        <Label fx:id="nmL" layoutX="75.0" layoutY="164.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Name" textFill="#d6d6d6">
+            <font>
+                <Font name="Consolas" size="30.0" />
+            </font></Label>
+        <Label fx:id="aliasL" layoutX="75.0" layoutY="224.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Alias" textFill="#d6d6d6">
+            <font>
+                <Font name="Consolas" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="specieL" layoutX="75.0" layoutY="284.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Species" textFill="#d6d6d6">
+            <font>
+                <Font name="Consolas" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="statL" layoutX="75.0" layoutY="344.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Status" textFill="#d6d6d6">
+            <font>
+                <Font name="Consolas" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="ageL" layoutX="75.0" layoutY="404.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Age" textFill="#d6d6d6">
+            <font>
+                <Font name="Consolas" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="genderL" layoutX="75.0" layoutY="464.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Gender" textFill="#d6d6d6">
+            <font>
+                <Font name="Consolas" size="30.0" />
+            </font>
+        </Label>
+      <Label fx:id="heightL" layoutX="75.0" layoutY="524.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Height" textFill="#d6d6d6">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="locL" layoutX="75.0" layoutY="584.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Location" textFill="#d6d6d6">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="kakuL" layoutX="75.0" layoutY="644.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Kakuhou" textFill="#d6d6d6">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="orgL" layoutX="75.0" layoutY="704.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #2d2c29; -fx-border-color: #db0f45; -fx-border-width: 5px;" text="Org." textFill="#d6d6d6">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTF" layoutX="241.0" layoutY="164.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="aliasTF" layoutX="241.0" layoutY="224.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="speciesTF" layoutX="241.0" layoutY="284.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="statusTF" layoutX="241.0" layoutY="344.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="ageTF" layoutX="241.0" layoutY="404.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="genderTF" layoutX="241.0" layoutY="464.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="heightTF" layoutX="241.0" layoutY="524.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="locationTF" layoutX="241.0" layoutY="584.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="kakuTF" layoutX="241.0" layoutY="644.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="orgTF" layoutX="241.0" layoutY="704.0" prefHeight="50.0" prefWidth="480.0" style="-fx-background-color: #d6d6d6; -fx-border-color: #db0f45; -fx-border-width: 5px;">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <Button layoutX="793.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#addUpdate" prefHeight="111.0" prefWidth="116.0" style="-fx-background-color: #2d2c29;">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@select.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </children>
+</Pane>
